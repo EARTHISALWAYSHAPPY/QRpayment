@@ -4,7 +4,7 @@
 
 ## About This Project
 
-QRpayment is an ESP32-based embedded project that drives a TFT display (ILI9341) to show a **PromptPay QR code** for accepting payments. It's designed for small, mobile, or low-cost point-of-sale scenarios — for example a **Tuk Tuk driver** or a **small coffee stand/station** — where a simple standalone device can display a scannable QR code for customers to pay via Thai PromptPay, without needing a phone, POS terminal, or internet-connected payment app running on a smartphone.
+QRpayment is an ESP32-based embedded project that drives a TFT display (ILI9341) to show a **PromptPay QR code** for accepting payments. It's designed for small, mobile, or low-cost point-of-sale scenarios — where a simple standalone device can display a scannable QR code for customers to pay via Thai PromptPay, without needing a phone, POS terminal, or internet-connected payment app running on a smartphone.
 
 The device is built around:
 - **ESP32** as the main microcontroller
@@ -16,7 +16,6 @@ The repository contains the firmware source code (`Source/UI_Promptpay`) and UI-
 
 - ESP32 development board
 - ILI9341 TFT LCD display (SPI)
-- Jumper wires (see wiring table below)
 - USB cable for flashing/power
 
 ## Library Setup (TFT_eSPI Configuration)
@@ -80,7 +79,7 @@ Open `Setup42_ILI9341_ESP32.h` (inside `User_Setups/`) and replace its contents 
 
 ### Wiring Reference (from the config above)
 
-| TFT Pin | ESP32 GPIO |
+| TFT Pin | ESP32 GPIO|
 |---------|-----------|
 | MISO    | 19        |
 | MOSI    | 23        |
