@@ -1,4 +1,4 @@
-# QRpayment
+# QRpayment (V0.1 (First Release) Basis system for test)
 
 **ESP32 + TFT : PromptPay QR Payment Display** — *promptpay*
 
